@@ -1,0 +1,164 @@
+@font-face {
+	font-family: 'BEBAS';
+	src: url('fonts/BEBAS.eot');
+	src: local('☺'), url('fonts/BEBAS.woff') format('woff'), url('fonts/BEBAS.ttf') format('truetype'), url('fonts/BEBAS.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+*{ 
+	padding: 0px;
+	border: 0px;
+	padding: 0px;
+	outline: none;
+	text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6{ font-family: 'BEBAS' !important; }
+
+.logotype{ width: 140px; }
+
+.TextSlider{
+	color: #fff;
+	margin-top: -440px;
+	position: absolute;
+	z-index: 2;
+	font-size: 48px;
+}
+
+span.line{
+	margin-top: -260px;
+	position: absolute;
+	padding: 1.5px;
+	width: 70px;
+	background-color: #93C949;
+	z-index: 2;
+}
+
+.description {
+	color: #fff;
+	margin-top: -240px;
+	position: absolute;
+	z-index: 2;
+
+}
+
+.mouse{
+	animation: MoveMouse 3s infinite;
+	left: 90%;
+	position: absolute;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	top: 82%;
+	width: 3%;
+	z-index: 3;
+	transform: translate(-50%, -50%);
+}
+
+@keyframes MoveMouse {
+    0%  {top:500px; bottom:0px;}
+    50% {top:530px; bottom:0px;}
+    100% {top:500px; bottom:0px;}
+}
+
+.owl-dots { position: relative; margin-top: -40px !important; }
+.TitleHow{ color: #2C4369; padding-bottom: 10px; }
+.underline {
+	padding: 1.2px;
+	width: 100px;
+	background-color: #93C949;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.howDescription{
+	text-align: justify;
+}
+
+.containHow{
+	width: 80%;
+	margin: 0px auto;
+}
+
+.ButtonSeeMore { text-decoration: none !important; }
+
+div.background{
+	background-image: url(../images/clients.jpg);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 400px;
+}
+
+.DescriptionClients,
+.TitleClients{ color: #fff; }
+
+.DobleUnderline {
+	padding: 1.2px;
+	width: 100px;
+	background-color: #93C949;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.ImagesClients{
+	width: 90% !important;
+	height: 140px !important;
+	padding: 10px;
+}
+
+
+.TitleMark{
+	color: #2C4369; 
+	padding-bottom: 10px;
+}
+
+.thirdUnderline{
+	padding: 1.2px;
+	width: 100px;
+	background-color: #93C949;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#contact{ background-color: #2C4369; }
+
+.TitleContact{
+	color: #fff; 
+	padding-bottom: 10px;
+}
+
+.fourUnderline{
+	padding: 1.2px;
+	width: 100px;
+	background-color: #93C949;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.icons { color: #fff;  }
+
+.ButtonNavbar {
+	color: #fff;
+	transition: all 0.5s;
+}
+
+.ButtonNavbar:hover {
+	background-color: #93C949;
+	border-bottom: 4px solid rgba(0,0,0,.125);
+	color: #fff !important;
+}
+
+.ButtonSubmit {
+	border-bottom: 4px solid rgba(0,0,0,.195);
+	border-radius: 0px;
+	background-color: #93C949;
+	color: #fff;
+	float: right;
+}
