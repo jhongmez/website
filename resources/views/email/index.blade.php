@@ -15,7 +15,7 @@
 					<p><strong>Nombre Completo: </strong>{{$nombre}}</p>
 				</div>
 				<div class="form-group">
-					<p><strong>Correo Electrónico: </strong>{{$correo}}}</p>
+					<p><strong>Correo Electrónico: </strong>{{$correo}}</p>
 				</div>
 				<div class="form-group">
 					<p><strong>Contacto: </strong>{{$celular}}</p>

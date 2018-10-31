@@ -24,6 +24,7 @@ h1,h2,h3,h4,h5,h6{ font-family: 'BEBAS' !important; }
 	position: absolute;
 	z-index: 2;
 	font-size: 48px;
+	text-shadow: 2px 2px #333;
 }
 
 span.line{
@@ -37,10 +38,10 @@ span.line{
 
 .description {
 	color: #fff;
-	margin-top: -240px;
+	margin-top: -230px;
 	position: absolute;
 	z-index: 2;
-
+	font-size: 17px;
 }
 
 .mouse{
@@ -52,13 +53,17 @@ span.line{
 	top: 82%;
 	width: 3%;
 	z-index: 3;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 }
 
 @keyframes MoveMouse {
-    0%  {top:500px; bottom:0px;}
-    50% {top:530px; bottom:0px;}
-    100% {top:500px; bottom:0px;}
+    0%  	{top:530px; bottom:0px;}
+    50% 	{top:560px; bottom:0px;}
+    100% 	{top:530px; bottom:0px;}
 }
 
 .owl-dots { position: relative; margin-top: -40px !important; }
@@ -85,16 +90,19 @@ span.line{
 
 div.background{
 	background-image: url(../images/clients.jpg);
-	background-position: bottom;
+	background-position: top;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 	width: 100%;
-	height: 400px;
+	height: auto;
 }
 
-.DescriptionClients,
-.TitleClients{ color: #fff; }
+.DescriptionClients{
+	color: #fff;
+}
+
+.TitleClients{ color: #fff; text-shadow: 2px 2px #333; }
 
 .DobleUnderline {
 	padding: 1.2px;
@@ -131,6 +139,7 @@ div.background{
 .TitleContact{
 	color: #fff; 
 	padding-bottom: 10px;
+	text-shadow: 2px 2px #333;
 }
 
 .fourUnderline{
@@ -150,6 +159,10 @@ div.background{
 }
 
 .ButtonNavbar:hover {
+	border-bottom: 2px solid #93C949;
+}
+
+.ButtonActive{
 	background-color: #93C949;
 	border-bottom: 4px solid rgba(0,0,0,.125);
 	color: #fff !important;
@@ -161,4 +174,8 @@ div.background{
 	background-color: #93C949;
 	color: #fff;
 	float: right;
+}
+
+.ButtonSubmit:hover{
+	background-color: #7EAB40;
 }

@@ -8,7 +8,7 @@
 	<meta name="generator" content="Laravel 5.7">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	{{-- keywords --}}
-	<meta name="keywords" content="Industrias Maviltex, maviltex, Industria Textil, Textiles Manizales, Textiles Colombia, textiles Pereira, Textiles Cali, Textiles Ibague, Textiles Dorada, sector textil, confeccion de ropa, Vestidos de baño, vestidos de baño niña, vestidos de baño dama, vestidos de baño mujer, pantalonetas, pantalonetas hombre, pantalonetas niño, www.maviltex.com.co, vestidos de baño manizales, vestidos de baño caldas, Bikini, monokini, salidas de baño, industria textil caldas">
+	<meta name="keywords" content="Industrias Maviltex, maviltex, Industria Textil, Textiles Manizales, Textiles Colombia, textiles Pereira, Textiles Cali, Textiles Ibague, Textiles Dorada, sector textil, confeccion de ropa, Vestidos de baño, vestidos de baño niña, vestidos de baño dama, vestidos de baño mujer, pantalonetas, pantalonetas hombre, pantalonetas niño, www.maviltex.com.co, vestidos de baño manizales, vestidos de baño caldas, Bikini, monokini, salidas de baño, industria textil caldas, textiles y moda, telefono industrias maviltex, industrias mabiltes, mabiltes, coser caldas">
 	{{-- Website description --}}
 	<meta name="description" content="Empresa licenciataria oficial de Walt Disney, fundada en el año 2004 en el sector textil enfocada a diseño, confección y comercialización de vestidos de baño a través de la prestación de servicios de excelente calidad, contamos con 15 años de experiencia en el mercado">
 	<title>Industrias Maviltex S.A.S | Bienvenido</title>
@@ -29,7 +29,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<p class="text-center" style="color: #fff;">&copy; 2018  Todos los derechos reservados.</p>
+					<p style="color: #fff;">&copy; 2018 Industrias Maviltex s.a.s -  Todos los derechos reservados.</p>
 				</div>
 			</div>
 		</div>
@@ -43,7 +43,7 @@
 		$('.owl-carousel').owlCarousel({
 		    loop:true,
 		    margin:0,
-		    autoplay:false,
+		    autoplay:true,
 		    responsive:{
 		        0:{
 		            items:1
@@ -61,11 +61,21 @@
 		    swal('Felicidades!', '{{ session('status') }}','success');
 		@endif
 
-		$(".nav li a").click(function(){				
-			var strAncla = $(this).attr('href'); // id del ancla
-			$('body,html').stop(true,true).animate({				
-				scrollTop: $(strAncla).offset().top
-			},1000);
+		$('a[href^="#"]').click(function() {
+	      	var hash = $(this).attr('href');
+	        	$('html, body').animate({
+	        	scrollTop: $(hash).offset().top
+	        }, 1500);
+	        return false;
+	   	});
+
+	   	$("#mensaje").keyup(function(event) {
+			var fieldValue = event.target.value;
+			if (fieldValue == 0) {
+				$("#enviar").attr("disabled", "disabled");
+			} else {
+				$("#enviar").removeAttr("disabled", "disabled");
+			}    
 		});
 	</script>
 </body>

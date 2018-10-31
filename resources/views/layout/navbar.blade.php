@@ -11,20 +11,20 @@
 		<div class="collapse navbar-collapse pull-right" id="navbarSupportedContent">
 			<ul class="navbar-nav ml-auto">
 			  	<li class="nav-item">
-			    	<a class="nav-link ButtonNavbar" href="#">Inicio</a>
+			    	<a class="nav-link ButtonNavbar" href="#slider">Inicio</a>
 			  	</li>
 			  	<li class="nav-item">
 			    	<a class="nav-link ButtonNavbar" href="#how">¿Quienes somos?</a>
 			  	</li>
 			  	<li class="nav-item">
-			    	<a class="nav-link ButtonNavbar" href="#clients">Clientes</a>
+			    	<a class="nav-link ButtonNavbar" href="#clients">Casos de éxito</a>
 			  	</li>
 			  	<li class="nav-item">
 			    	<a class="nav-link ButtonNavbar" href="#mark">Nuestras marcas</a>
 			  	</li>
 			  	<li class="nav-item">
-			    	<a class="nav-link ButtonNavbar" href="#contact">
-			    		Contáctanos <i class="fas fa-phone"></i>
+			    	<a class="nav-link ButtonActive" href="tel:0368750502">
+			    		Contáctanos 875-0502 <i class="fas fa-phone"></i>
 			    	</a>
 			  	</li>
 			</ul>

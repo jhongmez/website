@@ -13,13 +13,14 @@ class EmailController extends Controller
         	'nombre'  =>$request->nombre,
         	'correo'  =>$request->correo,
         	'celular' =>$request->celular,
+            'asunto' =>$request->asunto,
         	'mensaje' =>$request->mensaje
         );
 
         Mail::send('email.index', $data, function ($message) use($request) {
-			$message->from($request->correo,$request->nombre);
+			$message->from('lidersistemas@maviltex.com',$request->nombre);
 			// Asunto
-			$message->to('gmezjhon@gmail.com')->subject('Informacion página web Industrias Maviltex');
+			$message->to('lidersistemas@maviltex.com')->subject($request->asunto);
 		});
 
 		return redirect('./')->with('status', 'Se envió el correo con exito!');
