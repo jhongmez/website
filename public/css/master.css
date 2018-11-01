@@ -151,7 +151,7 @@ div.background{
 	transform: translate(-50%, -50%);
 }
 
-.icons { color: #fff;  }
+.icons { color: #fff; text-align: justify; }
 
 .ButtonNavbar {
 	color: #fff;
@@ -178,4 +178,34 @@ div.background{
 
 .ButtonSubmit:hover{
 	background-color: #7EAB40;
+}
+
+
+.aspecto,
+.mision,
+.enterprise{
+	color: #2C4369;
+	padding-bottom: 10px;
+}
+
+.underlineEnterprise{
+	padding: 1.2px;
+	width: 100px;
+	background-color: #93C949;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.descriptionValores,
+.descriptionMision,
+.descriptionEnterprise{
+	color: #333;
+	text-align: justify;
+}
+
+.valores{
+	color: #2C4369;
+	padding-bottom: 10px;
+	text-align: center;
 }

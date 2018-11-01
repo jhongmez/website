@@ -32,7 +32,8 @@
                             </h2>
                             <span class="line"></span>
                             <p class="description">
-                                En Industrias Maviltex nos preocupamos por que nuestros productos <br> se han de primera calidad
+                               Brindando oportunidades de progreso para el futuro <br>  
+                               de sus familias
                             </p>
                     </div>
                 </div>
@@ -47,20 +48,20 @@
             <div class="col-md-12">
                 <h2 class="text-center TitleHow mt-5">quienes somos</h2>
                 <span class="text-center underline"></span>
-                <p class="howDescription mt-5 mb-5">Empresa licenciataria oficial de Walt Disney, fundada en el año 2004 en el sector textil enfocada a diseño, confección y comercialización de vestidos de baño a través de la prestación de servicios de excelente calidad, contamos con <strong>15 años de experiencia</strong> en el mercado. Mejoramos continuamente nuestros procesos con responsabilidad social y ambiental.</p>
+                <p class="howDescription mt-5 mb-5">Somos una industria que confecciona y comercializa  trajes de baño ,con  la cual contribuimos al desarrollo humano y ecónomico de las personas involucradas en nuestro proceso, generando al tiempo la sactisfacción de nuestros clientes.</p>
                 <div class="row justify-content-center containHow">
                         <div class="col-xs-12 col-sm-4 col-md-4 text-center">
-                            <a href="{{ url('') }}">
+                            <a href="{{ url('/somos') }}">
                                 <img src="{{ asset('svg/industria.svg') }}" alt="" class="img-thumbnail shadow p-3 mb-5 bg-white rounded" width="200">
                             </a>
                         </div>
                         <div class="col-xs-12 col-sm-4 col-md-4 text-center">
-                            <a href="{{ url('') }}">
+                            <a href="{{ url('/somos') }}">
                                 <img src="{{ asset('svg/machine.svg') }}" alt="" class="img-thumbnail shadow p-3 mb-5 bg-white rounded" width="200">
                             </a>
                          </div>
                         <div class="col-xs-12 col-sm-4 col-md-4 text-center">
-                            <a href="{{ url('') }}">
+                            <a href="{{ url('/somos') }}">
                                 <img src="{{ asset('svg/quality.svg') }}" alt="" class="img-thumbnail shadow p-3 mb-5 bg-white rounded" width="200">
                             </a>
                         </div>
@@ -142,7 +143,7 @@
                 <span class="fourUnderline"></span>
             </div>
             <div class="col-md-12 mb-5">
-                <p class="text-center icons">Para cualquier tipo de información puedes acercate a nuestra sede principal o enviarnos un correo donde nos podemos contactar contigo.</p>
+                <p class="icons">Siempre nos importa lo que nuestros clientes piensen de nosotros. Tu sugerencia, queja, reclamo o comentario son nuestra oportunidad para mejorar y ofrecer un mejor servicio cada día. </p>
             </div>
             <div class="col-md-4 mb-4 mb-5">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.257042484052!2d-75.47905148588552!3d5.06203279632588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e476f7e41a246e1%3A0x8faace5968e9954d!2sIndustrias+Maviltex!5e0!3m2!1ses!2sco!4v1539709680755" width="100%" height="350"></iframe>

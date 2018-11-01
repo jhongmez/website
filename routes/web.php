@@ -15,5 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// Enviar correos
 Route::post('send', 'EmailController@send')->name('SendEmail');
+
+// Ruta info empresa
+Route::get('/somos', function() {
+	return view('enterprise.index');
+});
 
